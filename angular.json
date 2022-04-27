@@ -116,6 +116,16 @@
               "devServerTarget": "goty:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "goty:build:production",
+            "firebaseProject": "firestore-grafica-4f1fd",
+            "firebaseHostingSite": "firestore-grafica-4f1fd"
+          }
         }
       }
     }
