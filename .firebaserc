@@ -1,14 +1,5 @@
 {
-  "targets": {
-    "firestore-grafica-4f1fd": {
-      "hosting": {
-        "goty": [
-          "firestore-grafica-4f1fd"
-        ]
-      }
-    }
-  },
   "projects": {
-    "default": "firestore-grafica-4f1fd"
+    "default": "graficos-ng-firestore"
   }
 }

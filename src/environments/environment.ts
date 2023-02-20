@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  url: 'http://localhost:5000/graficos-ng-firestore/us-central1',
+  url: 'https://us-central1-graficos-ng-firestore.cloudfunctions.net',
   firebase: {
     apiKey: "AIzaSyADiAKYZgPvedWy87UwqVdqPKbXEuKiTVo",
     authDomain: "graficos-ng-firestore.firebaseapp.com",

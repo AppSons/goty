@@ -123,8 +123,8 @@
             "prerender": false,
             "ssr": false,
             "browserTarget": "goty:build:production",
-            "firebaseProject": "firestore-grafica-4f1fd",
-            "firebaseHostingSite": "firestore-grafica-4f1fd"
+            "firebaseProject": "graficos-ng-firestore",
+            "firebaseHostingSite": "graficos-ng-firestore"
           }
         }
       }
