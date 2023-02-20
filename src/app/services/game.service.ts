@@ -20,10 +20,10 @@ export class GameService {
   getNominados() {
 
     if (this.juegos.length > 0 ) {
-      console.log('desde caché');
+      //console.log('desde caché');
       return of(this.juegos);
     } else {
-      console.log('desde Internet');
+      //console.log('desde Internet');
       return this.http.get<Game[]>(`${environment.url}/api/goty`)
               .pipe(
                 tap(
