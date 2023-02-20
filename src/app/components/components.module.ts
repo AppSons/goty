@@ -13,7 +13,10 @@ import { GraficoBarraHorizontalComponent } from './grafico-barra-horizontal/graf
 
 @NgModule({
   declarations: [NavbarComponent, GraficoBarraHorizontalComponent],
-  exports: [NavbarComponent, GraficoBarraHorizontalComponent],
+  exports: [
+    NavbarComponent, 
+    GraficoBarraHorizontalComponent
+  ],
   imports: [
     CommonModule,
     RouterModule,

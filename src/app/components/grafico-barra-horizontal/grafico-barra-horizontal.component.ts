@@ -8,26 +8,7 @@ import { Component, Input, OnDestroy } from '@angular/core';
 export class GraficoBarraHorizontalComponent implements OnDestroy {
 
   @Input() results: any[] = [];
-  //results: any[] = [
-  //      {
-  //        "name": "Juego 1",
-  //        "value": 25
-  //      },
-  //      {
-  //        "name": "Juego 2",
-  //        "value": 13
-  //      },
-  //      {
-  //        "name": "Juego 3",
-  //        "value": 12
-  //      },
-  //      {
-  //        "name": "Juego 4",
-  //        "value": 30
-  //      }
-  //  ];
-
- 
+   
 
   // options
   showXAxis: boolean = true;
